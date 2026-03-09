@@ -21,6 +21,7 @@ class SignUp extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: SingleChildScrollView(
             child: Form(
+
               key: formKey,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -65,7 +66,7 @@ class SignUp extends StatelessWidget {
                   ),
                   SizedBox(height: 8),
                   CustomTextField(
-                    hint: 'example@gmail.com',
+                    hint: 'Abdo@gmail.com',
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Please enter your email';
@@ -102,7 +103,7 @@ class SignUp extends StatelessWidget {
                     text: 'Sign up',
                     onPressed: () {
                       if (formKey.currentState!.validate()) {
-                        //  handle login logic
+                        
                       }
                     },
                   ),
