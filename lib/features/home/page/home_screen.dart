@@ -6,7 +6,6 @@ import 'package:greenmart/core/widgets/custom_svg_picture.dart';
 import 'package:greenmart/features/home/data/product_model.dart';
 import 'package:greenmart/features/home/widgets/all_products_builder.dart';
 import 'package:greenmart/features/home/widgets/best_selling_builder.dart';
-import 'package:greenmart/features/home/widgets/exclusive_offer_builder.dart';
 import 'package:greenmart/features/home/widgets/home_search_bar.dart';
 import 'package:greenmart/features/home/widgets/item_card.dart';
 
