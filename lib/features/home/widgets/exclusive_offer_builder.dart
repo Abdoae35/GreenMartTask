@@ -46,5 +46,6 @@ class ExclusiveOfferBuilder extends StatelessWidget {
         ),
       ],
     );
+  
   }
 }
